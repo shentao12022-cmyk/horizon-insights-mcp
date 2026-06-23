@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hzinsights/vmcp",
+  "title": "VMCP",
+  "description": "Unified market data MCP server for A-shares, US stocks, Hong Kong stocks, indices, macro indicators, financial statements, valuation data, charts, transcripts, and market news.",
+  "version": "1.0.34",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vmcp.hzinsights.com/mcp/",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "VMCP Bearer token. Use the value format: Bearer <token>.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
