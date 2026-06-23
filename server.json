@@ -1,9 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.hzinsights/vmcp",
-  "title": "VMCP",
-  "description": "Unified market data MCP server for A-shares, US stocks, Hong Kong stocks, indices, macro indicators, financial statements, valuation data, charts, transcripts, and market news.",
+  "name": "io.github.shentao12022-cmyk/horizon-insights-mcp",
+  "title": "Horizon Insights MCP",
+  "description": "Market data, financial statements, valuation, research, and news for investment workflows.",
   "version": "1.0.34",
+  "repository": {
+    "url": "https://github.com/shentao12022-cmyk/horizon-insights-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
